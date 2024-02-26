@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css\index.css">
+    <link rel="stylesheet" href="css\nav.css">
+    <link rel="stylesheet" href="css\all.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png"/>
+        </div>
+        <a href="#" class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a class="nav-button" href="/">Accueil</a></li>
+                <li>
+                    <div class="dropdown">
+                    <a class="nav-button dropdown" href="#">Guide de vaisseaux</a>
+                    <div class="dropdown-content">
+                        <a href="html\human-ships.html" class="dropdown-text">Vaisseaux Humains</a>
+                        </br>
+                        <a href="html\alien-ships.html" class="dropdown-text">Vaisseaux Aliens</a>
+                    </div>
+                    </div>
+                </li>
+                <li><a class="nav-button" href="html\careers.html">Professions</a></li>
+                <li><a class="nav-button" href="html\factions.html">Factions</a></li>
+                <li><a class="nav-button" href="html\map.html">Carte</a></li>
+            </ul>
+        </div>
+      </nav>
+      <script src="/static/nav.js"></script>
+    <div id="img-video-div">
+        <video controls>
+            <source src="videos\Endless Sky Official Trailer.mp4"/>
+        </video>
+        <img id="logo" src="images\logo.png"/>
+    </div>
+    <footer>
+        <ul>
+            <li><a>Accueil</a></li>
+            <li><a>Vaisseaux humains</a></li>
+            <li><a>Vaisseaux aliens</a></li>
+            <li><a>Professions</a></li>
+            <li><a>Factions</a></li>
+            <li><a>Carte</a></li>
+        </ul>
+    </footer>
+    <script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#img-video-div {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+}
+
+#logo {
+    width: 40%;
+    position: relative;
+    top: -20vw;
+}
