@@ -1,0 +1,48 @@
+/* aligner le logo au centre */
+#img-video-div {
+    text-align: center;
+}
+/* styliser le titre */
+h1 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+/* ajuster le logo */
+#logo {
+    width: 40%;
+    position: relative;
+}
+/* positionner la video */
+video {
+    width: 100%;
+}
+/* styliser la div de contenu de la page */
+#content-div {
+    width: 80%;
+    margin: 0 auto 200px auto;
+    padding: 50px 0 50px 0;
+    border-radius: 15px;
+    background-color: black;
+}
+/* styliser le text à l'intérieur de la div de contenu */
+#content-div p {
+    color: white;
+    font-size: 20px;
+    margin: 50px;
+}
+/* styliser les titres à l'intérieur de la div de contenu */
+#content-div h2 {
+    font-size: 35px;
+    color: white;
+    margin: 50px;
+}
+/* augmenter le largeur de la div de contenu selon la grandeur de l'écran */
+@media (max-width: 768px) {
+    #content-div {
+        width: 100%;
+        margin: 0 0 200px 0;
+        padding: 50px 0 50px 0;
+        background-color: black;
+    }
+}

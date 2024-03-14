@@ -31,3 +31,8 @@ td img {
     margin: auto;
     display: block;
 }
+/* mettre la div de contenu en flex */
+#content-div {
+    display: flex;
+    flex-wrap: wrap;
+}
