@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <!-- stylesheets utilisées -->
     <link rel="stylesheet" href="..\css\ships.css">
     <link rel="stylesheet" href="..\css\nav.css">
     <link rel="stylesheet" href="..\css\all.css">
     <meta charset="utf8">
+    <title>Vaisseaux Aliens</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
+<!-- background du body -->
 <body style="background-image: url('../images/background/background.jpg');">
     <nav class="navbar">
+         <!-- logo -->
         <div class="logo">
             <img src="..\images/logo.png"/>
         </div>
+        <!-- menu hamburger -->
         <a href="#" class="menu-toggle">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -18,8 +24,10 @@
         </a>
         <div class="navbar-links">
             <ul>
+               <!-- accueil -->
                 <li><a class="nav-button" href="..\index.html">Accueil</a></li>
                 <li>
+                  <!-- dropdown pour les pages de vaisseaux -->
                     <div class="dropdown">
                     <a class="nav-button dropdown" href="">Guide de vaisseaux</a>
                     <div class="dropdown-content">
@@ -29,21 +37,27 @@
                     </div>
                     </div>
                 </li>
+                <!-- professions, factions et carte -->
                 <li><a class="nav-button" href="careers.html">Professions</a></li>
                 <li><a class="nav-button" href="factions.html">Factions</a></li>
                 <li><a class="nav-button" href="map.html">Carte</a></li>
             </ul>
         </div>
       </nav>
+      <!-- logo de la page -->
     <div id="img-video-div">
         <img id="logo" src="..\images\logo.png"/>
     </div>
     <h1>Les Vaisseaux Aliens</h1>
     <div id="content-div">
+      <!-- tableau pour une classe de vaisseaux -->
         <table class="ship-table">
+         <!-- nom de la classe de vaisseaux -->
             <th colspan="2">Bunrodea</th>
          <tr>
+            <!-- nom du vaisseau -->
             <td class="ship-name">Ararebo</td>
+            <!-- image du vaisseau -->
             <td style="background-size: cover; background-image: url('../images/ship-backgrounds/background8.png');"><img class="ship" src="..\images\alien-ships\\bunrodea\Ararebo.webp"/></td>
          </tr>
          <tr>
@@ -596,6 +610,7 @@
          </tr>
          </table>
     </div>
+    <!-- footer -->
     <footer>
         <ul>
             <li><a href="..\index.html">Accueil</a></li>
@@ -606,6 +621,5 @@
             <li><a href="map.html">Carte</a></li>
         </ul>
     </footer>
-    <script src="../js/nav.js"></script>
 </body>
 </html>

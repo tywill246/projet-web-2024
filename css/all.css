@@ -1,3 +1,4 @@
+/* Police d'écriture importée */
 @font-face {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -10,6 +11,7 @@
     font-family: 'Ubuntu';
 }
 
+/* enlever les margins du body */
 body {
     margin: 0;
     padding: 0;

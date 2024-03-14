@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css\index.css">
+    <!-- stylesheets utilisées -->
+    <link rel="stylesheet" href="css\general.css">
     <link rel="stylesheet" href="css\nav.css">
     <link rel="stylesheet" href="css\all.css">
     <meta charset="utf8">
+    <title>Guide d'Endless Sky</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
+<!-- background du body -->
 <body style="background-image: url('images/background/background.jpg');">
     <nav class="navbar">
+        <!-- logo -->
         <div class="logo">
             <img src="images/logo.png"/>
         </div>
+        <!-- menu hamburger -->
         <a href="#" class="menu-toggle">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -18,8 +24,10 @@
         </a>
         <div class="navbar-links">
             <ul>
+                <!-- accueil -->
                 <li><a class="nav-button" href="index.html">Accueil</a></li>
                 <li>
+                    <!-- dropdown pour les pages de vaisseaux -->
                     <div class="dropdown">
                     <a class="nav-button dropdown" href="">Guide de vaisseaux</a>
                     <div class="dropdown-content">
@@ -29,18 +37,21 @@
                     </div>
                     </div>
                 </li>
+                <!-- professions, factions et carte -->
                 <li><a class="nav-button" href="html\careers.html">Professions</a></li>
                 <li><a class="nav-button" href="html\factions.html">Factions</a></li>
                 <li><a class="nav-button" href="html\map.html">Carte</a></li>
             </ul>
         </div>
       </nav>
+      <!-- video et logo de la page d'accueil -->
     <div id="img-video-div">
         <video controls>
             <source src="videos\Endless Sky Official Trailer.mp4"/>
         </video>
         <img id="logo" src="images\logo.png"/>
     </div>
+    <!-- contenu de la page -->
     <h1>Le Guide d'Endless Sky</h1>
     <div id="content-div">
         <h2>Que'est-ce que Endless Sky?</h2>
@@ -55,6 +66,7 @@
         <h2>Les factions</h2>
         <p>Une fois que vous avez remboursé votre prêt hypothécaire (ou que vous êtes qualifié pour un prêt plus important), il est temps de penser à acheter un meilleur navire, soit pour construire une flotte, soit pour remplacer votre vaisseau amiral. Environ 50 modèles différents de navires sont disponibles sur le territoire humain, allant des énormes cargos aux puissants navires de guerre en passant par les éclaireurs rapides et agiles. Et de temps en temps, vous entendez des rumeurs selon lesquelles des gens auraient voyagé au-delà de l’espace connu et découvert des civilisations extraterrestres dotées d’une technologie bien supérieure à la vôtre.</p>
     </div>
+    <!-- footer -->
     <footer>
         <ul>
             <li><a href="index.html">Accueil</a></li>
@@ -65,6 +77,5 @@
             <li><a href="html\map.html">Carte</a></li>
         </ul>
     </footer>
-    <script src="js/nav.js"></script>
 </body>
 </html>

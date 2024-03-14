@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="..\css\factions.css">
+    <!-- stylesheets utilisées -->
+    <link rel="stylesheet" href="..\css\general.css">
     <link rel="stylesheet" href="..\css\nav.css">
     <link rel="stylesheet" href="..\css\all.css">
     <meta charset="utf8">
+    <title>Factions</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
+<!-- background du body -->
 <body style="background-image: url('../images/background/background.jpg');">
     <nav class="navbar">
+        <!-- logo -->
         <div class="logo">
             <img src="..\images/logo.png"/>
         </div>
+        <!-- menu hamburger -->
         <a href="#" class="menu-toggle">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -18,8 +24,10 @@
         </a>
         <div class="navbar-links">
             <ul>
+                <!-- accueil -->
                 <li><a class="nav-button" href="..\index.html">Accueil</a></li>
                 <li>
+                    <!-- dropdown pour les pages de vaisseaux -->
                     <div class="dropdown">
                     <a class="nav-button dropdown" href="">Guide de vaisseaux</a>
                     <div class="dropdown-content">
@@ -29,15 +37,18 @@
                     </div>
                     </div>
                 </li>
+                <!-- professions, factions et carte -->
                 <li><a class="nav-button" href="careers.html">Professions</a></li>
                 <li><a class="nav-button" href="factions.html">Factions</a></li>
                 <li><a class="nav-button" href="map.html">Carte</a></li>
             </ul>
         </div>
       </nav>
+      <!-- logo de la page -->
     <div id="img-video-div">
         <img id="logo" src="..\images\logo.png"/>
     </div>
+    <!-- contenu de la page -->
     <h1>Les factions d'Endless Sky</h1>
     <div id="content-div">
         <h2>République</h2>
@@ -57,6 +68,7 @@
         <p>Les pirates et les anarchistes se sont emparés d'un certain nombre de systèmes relativement indésirables ou éloignés à la périphérie de l'espace humain, à partir desquels ils effectuent régulièrement des raids sur les navires marchands. Les mondes pirates sont presque la seule source d’outils de combat au corps à corps avancés (et parfois illégaux) que les civils peuvent acheter. Ils offrent également une variété d'emplois lucratifs et risqués, dont beaucoup perturberont les navires gouvernementaux qui parviennent à scanner votre soute.</p>
         <p>Les détails de la gouvernance sur les mondes contrôlés par les pirates varient énormément, mais les pots-de-vin requis pour atterrir sont en réalité les mêmes dans toute la galaxie, et les navires et équipages pirates ont tendance à être tristement cohérents.</p>
     </div>
+    <!-- footer -->
     <footer>
         <ul>
             <li><a href="..\index.html">Accueil</a></li>
@@ -67,6 +79,5 @@
             <li><a href="map.html">Carte</a></li>
         </ul>
     </footer>
-    <script src="..\js/nav.js"></script>
 </body>
 </html>
